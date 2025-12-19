@@ -585,6 +585,11 @@ export default function App() {
           sessionTime={sessionTime}
           onStopSession={stopSession}
           formatTime={formatTime}
+          onMouseDown={handleCanvasMouseDown}
+          calibrated={calibrated}
+          hsvRange={hsvRange}
+          setHsvRange={setHsvRange}
+          setCalibrated={setCalibrated}
         />
       )}
 
